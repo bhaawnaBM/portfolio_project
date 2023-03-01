@@ -1,0 +1,12 @@
+/**/
+h1 {
+  color: red;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 80px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
