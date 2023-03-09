@@ -131,6 +131,7 @@
   display: -webkit-box;
   margin-left: auto;
   margin-bottom: 100px;
+  vertical-align: middle;
 }
 
 .about-section .email {
@@ -199,14 +200,12 @@
     text-align: center;
   }
 
-  .about-section{
+  .about-section {
     text-align: center;
   }
 
-  .about-section
-  h1 {
+  .about-section h1 {
     font-size: 40px;
     line-height: 1;
   }
-
 }
