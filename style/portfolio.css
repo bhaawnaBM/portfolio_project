@@ -5,6 +5,7 @@
   --heading-font-family: "Playfair Display", serif;
   --para-font-family: "Poppins", sans-serif;
   --background-color: #f9f7fe;
+  --img-background-color: #f1edfa;
 }
 
 .body h2 {
@@ -22,6 +23,17 @@
   line-height: 27px;
   padding: 16px 25px;
 }
+
+.body img {
+  background-color: var(--img-background-color);
+  width: 500px;
+  height: 500px;
+  left: 67px;
+  padding: 60px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -75,23 +87,23 @@
 }
 
 .hero {
-  background: #f9f7fe;
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
 
-.about-section {
+.content-container {
   text-align: left;
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
   font-family: var(--heading-font-family);
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: var(--para-font-family);
   font-size: 18px;
   line-height: 27px;
@@ -100,7 +112,7 @@
   color: var(--h2-color);
 }
 
-.about-section p {
+.content-container p {
   font-size: 15px;
   font-family: var(--para-font-family);
   font-size: normal;
@@ -110,7 +122,7 @@
   margin: 30px auto;
 }
 
-.about-section .btn-branding {
+.content-container .btn-branding {
   background: var(--primary-color);
   color: white;
   padding: 18px 35px;
@@ -121,11 +133,11 @@
   border-radius: 4px;
 }
 
-.about-section .btn-branding:hover {
+.content-container .btn-branding:hover {
   text-decoration: none;
 }
 
-.about-section img {
+.content-container img {
   background-color: none;
   border-radius: 15px;
   display: -webkit-box;
@@ -134,7 +146,7 @@
   vertical-align: middle;
 }
 
-.about-section .email {
+.content-container .email {
   text-align: center;
   font-family: var(--para-font-family);
   color: black;
@@ -147,7 +159,7 @@
 }
 
 .footer {
-  background: #f9f7fe;
+  background: var(--background-color);
   text-align: center;
   padding: 50px 10px;
   border-radius: 20px;
@@ -174,11 +186,11 @@
 }
 
 @media (max-width: 900px) {
-  h1 {
+  .hero h1 {
     font-size: 40px;
     line-height: 1;
   }
-  h2 {
+  .hero h2 {
     font-size: 30px;
   }
 
@@ -200,8 +212,32 @@
     text-align: center;
   }
 
-  .about-section {
+  .content-container h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .content-container h2 {
+    font-size: 30px;
+  }
+
+  .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  .footer h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .footer h2 {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1;
+    margin: auto;
+  }
+
+  .footer .btn-branding {
+    text-align: center;
   }
 }
