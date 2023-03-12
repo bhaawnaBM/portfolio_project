@@ -100,7 +100,7 @@
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 nav {
@@ -132,7 +132,7 @@ nav li.active a {
 
 .content-container {
   text-align: left;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {

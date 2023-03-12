@@ -35,14 +35,20 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" alt="logo" class="logo" />
+        <a href="/index.html" title="homepage">
+          <img src="images/logo.png" alt="logo" class="logo"
+        /></a>
         <ul>
-          <li class="active">
-            <a href="/index.html">Home</a>
+          <li>
+            <a href="/index.html" title="homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li>
+            <a href="/about.html" title="aboutPage">About</a>
+          </li>
+          <li><a href="/work.html" title="WorkPage">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="ContactPage">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -64,22 +70,28 @@
           >
         </p>
       </div>
-      <div class="footer">
-        <div class="row">
-          <div class="col-lg-6">
-            <div>
-              <h1>Work Inquiry</h1>
-              <h2 class="mt-3">
-                Let’s work together and I’ll help you by all my best
-              </h2>
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <div class="col-lg-6">
+              <div>
+                <h1>Work Inquiry</h1>
+                <h2 class="mt-3">
+                  Let’s work together and I’ll help you by all my best
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <a
+                href="/contact.html"
+                target="_blank"
+                class="btn btn-branding mt-4"
+                >Contact me</a
+              >
             </div>
           </div>
-          <div class="col-lg-6">
-            <a href="" class="btn btn-branding mt-4">Let's talk here</a>
-          </div>
         </div>
-      </div>
-      <footer>
+
         <div class="email d-flex justify-content-center mb-4">
           <a
             href="mailto:bhaawna@email.com"
@@ -98,6 +110,15 @@
             <i class="fab fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded with help of Shecodes and it is
+          <a
+            href="https://github.com/bhaawnaBM/portfolio_project"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
